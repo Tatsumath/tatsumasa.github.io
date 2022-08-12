@@ -1,0 +1,591 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Raleway&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+/* font-family: 'Oswald', sans-serif; */
+/* Tatsumasa URA Second Submit*/
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Oswald', sans-serif;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+}
+
+hr{
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border-style: solid;
+    border-color: #c7a17a;
+} 
+
+ /* u{
+    width: 50%;
+    color: red;
+}  */
+
+.wrapper{
+    width: 100%;
+    margin: auto;
+     /* border: 2px solid red;  reccomend*/
+}
+
+.nav{
+    overflow: auto;
+    width: 85%;
+    margin: 1em auto;
+    /* border: 2px solid red; */
+}
+
+.nav h1{
+    text-transform: uppercase;
+    width: 50%;
+    float: left;
+    /* border: 2px solid red; */
+}
+
+.nav h1 a{
+    font-family: 'Oswald', sans-serif;
+    color: #96746b;
+    text-decoration: none;
+}
+
+.nav ul{
+    width: 50%;
+    float: left;  /* changed (Homework)*/
+    text-align: right;
+    margin-top: 1em;
+}
+
+.nav ul li{
+    display: inline-block;
+    margin-left: 1em;
+}
+
+.nav ul a{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #312a26;
+    text-decoration: none;
+}
+
+
+/* Banner */
+.banner{
+    width: 100%;
+    height: 670px;
+    background-image: url(../image/banner-bg.jpg);
+    background-size: cover ;
+    background-position: center;
+    position: relative;
+    
+    /* border: 2px solid red; */
+}
+
+.banner-text{
+    color:#c7a17a;
+    position: absolute;
+    top: 50%;
+    left: 7.5%;
+    transform: translate(0%, -50%);
+    /* border: 2px solid red; */
+} 
+
+
+.banner-text h2{
+    color:#c7a17a;
+    font-size: 4em;
+    text-transform: uppercase;
+     /* border: 2px solid red;  */
+}
+
+.banner-text h2 span{   
+    color:#96746b;
+     /* border: 2px solid red;  */
+}
+
+
+.banner-text p{
+    color: white;
+}
+
+.banner-text a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-top: 1em;
+    background-color: #312a26;
+} 
+
+/* Ads section */
+.ads{
+    width: 85%;
+    margin: 4em auto;
+    overflow: auto;
+    /* border: 2px solid blue; reccomend*/
+}
+
+.ads-items{
+    width: 48.5%;
+    float: left;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-bottom: 3%;
+
+    /* border: 2px solid red; reccomend*/
+}
+
+.ads-item1{
+    margin-right: 3%;
+    background-image: url(../image/ads-img1.jpg);
+}
+
+.ads-item2{
+    background-image: url(../image/ads-img2.jpg);
+}
+
+.ads-text{
+    position: relative;
+    top:30%;
+    left:10%;
+    transform:translateY(-50%);
+    width: 40%;
+}
+    
+.ads-text h2{
+    text-transform: uppercase;
+    font-size: 2em;
+    color:#fff;
+    line-height: 1.2em;
+    text-shadow: 3px 3px 6px #312a26;
+    
+}
+.ads-text a{
+    display:block;
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 700;
+    color:#fff;
+    text-transform: uppercase;
+    margin-top: 1em;
+    text-shadow: 3px 3px 5px #312a26;
+}
+
+/* Ads Finish */
+
+
+.coffee_house_merchandise{
+    width: auto;
+    margin: 30px;
+    padding: 30px;    
+}
+
+.text-center-p{
+    text-align: center;
+    font-style: italic;
+    padding: 5px;
+    color: #c7a17a;
+}
+
+.text-center-h{
+    text-align: center;
+    padding: 5px;
+}
+
+.picture8, .picture4{
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    padding-right: auto;
+    padding-left: auto;
+    /* border: 2px solid red; reccomend*/
+}
+
+.image_merchandise{
+    width: 100%;
+    padding: 1%;
+} 
+
+/* Discount area */
+
+.discount{
+    width: 85%;
+    height: 600px;
+    margin: 5% auto;
+    background-image: url(../image/discount-img.jpg);
+    background-size: cover ;
+    background-position: center;
+    position: relative;
+    
+     /* border: 2px solid green; */
+}
+
+.discount-text{
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 40%;  
+    left: 20%;
+     /* transform: translate(40%, 100%); */
+     /* border: 2px solid blue; reccomend*/
+} 
+
+
+.discount-text h3{
+    color: #fff;
+    font-size: 4em;
+    text-transform: uppercase;
+      /* border: 2px solid red; */
+}
+
+.discount-text p{
+    color: white;
+    font-style: italic;
+}
+
+.discount-text a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-top: 1em;
+    background-color: rgba(255,255,255,0.5);
+} 
+
+/* Article Area */
+
+.article{
+    width: 85%;
+    margin: 4em auto;
+    overflow: auto;
+    /* border: 2px solid blue; reccomend*/
+}
+
+.article-items{
+    width: 48.5%;
+    float: left;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-bottom: 3%;
+
+    /* border: 2px solid red; reccomend*/
+}
+
+.article-item1{
+    margin-right: 3%;
+    background-image: url(../image/ads-img3.jpg);
+}
+
+.article-item2{
+    background-image: url(../image/ads-img4.jpg);
+}
+
+.article-item3{
+    margin-right: 3%;
+    background-image: url(../image/ads-img5.jpg);
+}
+
+.article-item4{
+    background-image: url(../image/ads-img6.jpg);
+}
+
+.article-text{
+    position: relative;
+    top:30%;
+    left:10%;
+    transform:translateY(-50%);
+    width: 40%;
+}
+    
+.article-text h2{
+    text-transform: uppercase;
+    font-size: 2em;
+    color:#fff;
+    line-height: 1.2em;
+    text-shadow: 3px 3px 6px #312a26;
+    
+}
+.article-text a{
+    display:block;
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 700;
+    color:#fff;
+    text-transform: uppercase;
+    margin-top: 1em;
+    text-shadow: 3px 3px 5px #312a26;
+}
+
+/* Reservation area */
+
+.reservation_area{
+    width: 85%;
+    height: 460px;
+    margin: 4em auto;
+    overflow: auto;
+    /* border: 2px solid blue; reccomend*/
+    /* padding-bottom: 3%;  */
+}
+
+.box_common{
+    background-color: #e7e7e7;
+    width: 48.5%;
+    height: 450px;
+    float: left;
+    padding-bottom: 3%;
+    /* border: 2px solid green; reccomend*/
+}
+
+.left_box{
+    margin-right: 3%;
+    padding: 1% 3%;
+}
+
+.right_box{
+    padding: 1% 3%;
+}
+
+.formsub{
+    width: 95%;
+    height: 30px;
+    display: inline-block;
+    /* padding: 0.5em; */
+    border: 1px solid #999;
+    /* box-sizing: border-box; */
+    background-color: #f2f2f2;
+    margin: 0.5em 0;
+}
+
+.details{
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.submit{
+    width: 95%;
+    height: 30px;
+    display: inline-block;
+    margin: 0.5em 0;
+    background-color:saddlebrown;
+}
+
+.submit:hover{
+    opacity: .9;
+}
+.agree_check{
+    margin-top: 50px;
+}
+
+/* Footer */
+
+.footer{
+    width: 100%;
+    height: 400px;
+    background-image: url(../image/footer-img.jpg);
+    background-size: cover ;
+    background-position: center;
+
+    /* border: 2px solid red; */
+}
+
+.footer_text{
+    color: white;
+
+    top: 50%;
+    left: 7.5%;
+    transform: translate(0%, -50%);
+    /* border: 2px solid red; */
+} 
+
+
+.footerh{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 3px 3px 6px #312a26;
+     /* border: 2px solid red;  */
+}
+
+.footerh3{
+    color: white;
+    margin: 10px 5%;
+    text-shadow: 3px 3px 6px #312a26;
+}
+
+.pdate, .pother, .pcontact{
+    color: #c7a17a;
+    margin: 10px 5%;
+    padding-bottom: 5px;
+}
+
+
+
+.footer_items{
+    width: 20%;
+    float: left;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-top: 3%;
+    margin-bottom: 0;
+
+    /* border: 2px solid red; reccomend*/
+}
+
+.footer_item1{
+    margin-left: 7%;;
+     /* border: 2px solid #19100F; */
+     ;
+    margin-right: 1%;
+}
+
+.footer_item2{
+    margin-left: 1%;
+    margin-right: 1%;
+    /* border: 2px solid blue; */
+}
+
+.footer_item3{
+    margin-left: 1%;
+    margin-right: 1%;
+    /* border: 2px solid green; */
+}
+
+.footer_item4{
+    margin-right: 7%;
+    margin-left: 1%;
+    /* border: 2px solid gold; */
+} 
+
+.footer_table{
+    color: white;
+    float: center;
+}
+
+.footer_table_height1{
+    height: 50px;
+}
+
+.footer_table_height2{
+    height: 30px;
+}
+
+/* .foooter_search{
+    width: 50%;
+    height: 30px;
+    border: 2px solid gold;
+} */
+
+.serch_button{
+    height: 40px;
+    width: 30%;
+    background-color: #c7a17a;
+}
+
+.footer_items h2{
+    font-size: 150%;
+}
+
+.footer_items h3{
+    font-size: 100%;
+}
+
+.footer_items p{
+    font-size: 100%;
+}
+
+.footer td, th{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 3px 3px 6px #312a26;
+
+}
+
+/* SNS */
+
+.snsfooter{
+    background-color:#19100F;
+    width: auto;
+    height: 45px;
+    padding-top: 5px;
+    padding-top: 0;
+     /* border: 2px solid blue;  reccomend*/
+}
+
+.snsh{
+    float: center;
+     /* border: 2px solid palegreen; */
+    width: auto;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+.snsimage{
+    float: center;
+     /* border: 2px solid aqua; */
+    width: auto;
+}
+
+.snsimageicon{
+    width: 6%;
+    margin: 0;
+}
+
+.snscopy{
+    float: center;
+    /* border: 2px solid teal; */
+    width: auto; 
+    color: white;
+}
+
+.snsfooter ul{
+    width: 100%;
+    /* float: left;  changed (Homework) */
+    text-align: center;
+    /* margin-top: 1em; */
+    margin-top: 0;
+    padding-top: 0;
+    /* border: 2px solid green;  reccomend*/
+}
+
+.snsfooter ul li{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1em;
+     /* border: 2px solid yellow;  reccomend*/
+    margin: 0 1%;
+    width: 30%;
+    margin-top: 0;
+    /* height: auto; */
+     padding-bottom: 10px;
+}
+
+.snsh a{
+    text-decoration: none;
+    display: inline-block;
+    /* padding: 1em; */
+    color: white;
+    /* font-family: 'Raleway', sans-serif; */
+    font-weight: 700;
+    /* margin-top: 1em; */
+    /* background-color: #312a26; */
+}  
